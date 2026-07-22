@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Hover Avengers Card</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header">
+            <span class="eyebrow">EARTH'S MIGHTIEST INTERACTIVE SHOWCASE</span>
+            <h1>3D Hover <span class="highlight">Avengers</span><br>Card</h1>
+            <p class="subtitle">Choose your hero and watch the battlefield react.</p>
+        </header>
+
+        <main class="showcase-container">
+            <!-- Main Card -->
+            <div class="card" id="main-card">
+                <div class="card-border"></div>
+                <div class="card-content">
+                    <div class="text-content">
+                        <span class="avenger-number" id="hero-num">AVENGER 01</span>
+                        <h2 class="avenger-name" id="hero-name">IRON MAN</h2>
+                        <p class="avenger-desc" id="hero-desc">Genius. Billionaire. Armored Avenger.</p>
+                    </div>
+                </div>
+                <!-- 3D Pop-out Image -->
+                <!-- REPLACE 'ironman-full.png' WITH YOUR ACTUAL IMAGE PATH -->
+                <img src="ironman-full.png" alt="Hero" class="hero-image" id="hero-img">
+            </div>
+
+            <!-- Selectors -->
+            <div class="selectors">
+                <!-- Button 1 -->
+                <button class="selector-btn active" data-id="0" style="--theme-color: #ff3333;">
+                    <!-- REPLACE 'ironman-thumb.png' -->
+                    <img src="ironman-thumb.png" alt="Iron Man" class="thumb">
+                    <div class="btn-info">
+                        <span class="num">01</span>
+                        <span class="name">Iron Man</span>
+                    </div>
+                </button>
+                
+                <!-- Button 2 -->
+                <button class="selector-btn" data-id="1" style="--theme-color: #3388ff;">
+                    <!-- REPLACE 'cap-thumb.png' -->
+                    <img src="cap-thumb.png" alt="Captain America" class="thumb">
+                    <div class="btn-info">
+                        <span class="num">02</span>
+                        <span class="name">Captain</span>
+                    </div>
+                </button>
+                
+                <!-- Button 3 -->
+                <button class="selector-btn" data-id="2" style="--theme-color: #ff3333;">
+                    <!-- REPLACE 'spider-thumb.png' -->
+                    <img src="spider-thumb.png" alt="Spider-Man" class="thumb">
+                    <div class="btn-info">
+                        <span class="num">03</span>
+                        <span class="name">Spider-Man</span>
+                    </div>
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <p>developed by Md. Emtiaz Hossain Sami 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
