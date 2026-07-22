@@ -16,7 +16,7 @@ const avengersData = [
         id: "03",
         name: "SPIDER-MAN",
         desc: "Your Friendly Neighborhood Spider-Man.",
-        imgSrc: "spider-full.png" // Replace with actual path
+        imgSrc: "images (2).jpg" // Replace with actual path
     }
 ];
 
