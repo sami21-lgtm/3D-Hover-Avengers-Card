@@ -4,7 +4,7 @@ const avengersData = [
         id: "01",
         name: "IRON MAN",
         desc: "Genius. Billionaire. Armored Avenger.",
-        imgSrc: "ironman-full.png" // Replace with actual path
+        imgSrc: "images.jpg" // Replace with actual path
     },
     {
         id: "02",
